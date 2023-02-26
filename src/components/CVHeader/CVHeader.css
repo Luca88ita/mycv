@@ -1,0 +1,37 @@
+.CVHeader {
+  display: flex;
+}
+
+.CVHeader h1 {
+  border-radius: 0 1rem 0 0;
+}
+
+.CVHeader h2 {
+  border-radius: 0 0 1rem 0;
+  cursor: default;
+}
+
+.CVHeader>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.CVHeader>button{
+  background-color: transparent;
+  border-radius: 1rem 0 0 1rem;
+  width: 10rem;
+  margin: 0.75rem 1rem 0.5rem 0.25rem;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+#proPic{
+  border-radius: inherit;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  padding: 0;
+  margin: 0 0 -0.25rem 0;
+}

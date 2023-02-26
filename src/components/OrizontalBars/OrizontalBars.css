@@ -1,0 +1,43 @@
+.fullBar {
+  --fb-bg-color: #0000ff;
+}
+.fullBar.dark-theme {
+  --fb-bg-color: #ff0000;
+}
+.emptyBar {
+  --eb-bg-color: #add8e6;
+}
+.emptyBar.dark-theme {
+  --eb-bg-color: #fcbf4f;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  .fullBar {
+    --fb-bg-color: #ff0000;
+  }
+  .fullBar.light-theme {
+    --fb-bg-color: #0000ff;
+  }
+  .emptyBar {
+    --eb-bg-color: #fcbf4f;
+  }
+  .emptyBar.light-theme {
+    --eb-bg-color: #add8e6;
+  }
+}
+
+.OrizontalBars{
+  display: flex;
+  width: 100%;
+}
+.fullBar{
+  width: 10%;
+  height: 0.5rem;
+  background-color: var(--fb-bg-color);
+}
+.emptyBar{
+  width: 10%;
+  height: 0.5rem;
+  background-color: var(--eb-bg-color);
+}

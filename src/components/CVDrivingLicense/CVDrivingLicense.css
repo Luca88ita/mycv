@@ -1,0 +1,7 @@
+#drivingLicenses{
+  display: flex;
+}
+#drivingLicenses>div{
+  display: flex;
+  flex-direction: row;
+}

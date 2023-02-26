@@ -1,0 +1,79 @@
+[
+  {
+    "title": "intro",
+    "h5Title": null,
+    "h6Title": null,
+    "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel facilis ducimus, accusantium, reiciendis recusandae ex explicabo provident autem quas temporibus dolore iure a quae dolorum magni omnis esse! Ad.",
+    "li": false
+  },
+  {
+    "title": "intro",
+    "h5Title": "Ieri...",
+    "h6Title": null,
+    "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel facilis ducimus, accusantium, reiciendis recusandae ex explicabo provident autem quas temporibus dolore iure a quae dolorum magni omnis esse! Ad.",
+    "li": false
+  },
+  {
+    "title": "intro",
+    "h5Title": "... ed oggi",
+    "h6Title": null,
+    "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel facilis ducimus, accusantium, reiciendis recusandae ex explicabo provident autem quas temporibus dolore iure a quae dolorum magni omnis esse! Ad.",
+    "li": false
+  },
+  {
+    "title": "intro",
+    "h5Title": "Obiettivi",
+    "h6Title": null,
+    "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel facilis ducimus, accusantium, reiciendis recusandae ex explicabo provident autem quas temporibus dolore iure a quae dolorum magni omnis esse! Ad.",
+    "li": false
+  },
+  {
+    "title":"jobs",
+    "h5Title":"2021-Nov / 2022-Lug",
+    "h6Title": "RUOLO - AZIENDA 1",
+    "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel facilis ducimus, accusantium, reiciendis recusandae ex explicabo provident autem quas temporibus dolore iure a quae dolorum magni omnis esse! Ad.",
+    "li": true
+  },
+  {
+    "title":"jobs",
+    "h5Title":"2019-Lug / 2021-Nov",
+    "h6Title": "RUOLO - AZIENDA 2",
+    "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel facilis ducimus, accusantium, reiciendis recusandae ex explicabo provident autem quas temporibus dolore iure a quae dolorum magni omnis esse! Ad.",
+    "li": true
+  },
+  {
+    "title":"jobs",
+    "h5Title":"2007-Lug / 2018-Set",
+    "h6Title": "ALTRE ESPERIENZE LAVORATIVE",
+    "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel facilis ducimus, accusantium, reiciendis recusandae ex explicabo provident autem quas temporibus dolore iure a quae dolorum magni omnis esse! Ad.",
+    "li": true
+  },
+  {
+    "title":"edu",
+    "h5Title":"2022-Nov / 2023-Set",
+    "h6Title": "ISTITUTO 1 - LUOGO",
+    "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel facilis ducimus, accusantium, reiciendis recusandae ex explicabo provident autem quas temporibus dolore iure a quae dolorum magni omnis esse! Ad.",
+    "li": true
+  },
+  {
+    "title":"edu",
+    "h5Title":"2022-Ott / 2022-Nov",
+    "h6Title": "ISTITUTO 2 - LUOGO",
+    "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel facilis ducimus, accusantium, reiciendis recusandae ex explicabo provident autem quas temporibus dolore iure a quae dolorum magni omnis esse! Ad.",
+    "li": true
+  },
+  {
+    "title":"edu",
+    "h5Title":"2009-Ott / 2014-Mar",
+    "h6Title": "ISTITUTO 3 - LUOGO",
+    "paragraph":"Laura triennale in *************, con voto di *****",
+    "li": true
+  },
+  {
+    "title":"edu",
+    "h5Title":"2002-Set / 2007-Lug",
+    "h6Title": "ISTITUTO 4 - LUOGO",
+    "paragraph":"Diploma di *********, con voto di *****",
+    "li": true
+  }
+]

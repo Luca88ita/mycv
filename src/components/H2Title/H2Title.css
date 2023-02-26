@@ -1,0 +1,31 @@
+.H2Title {
+  --text-color: #222222;
+  --bkg-color: lavender;
+}
+.H2Title.dark-theme {
+  --text-color: #cacaca;
+  --bkg-color: #535353;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  .H2Title {
+    --text-color: #cacaca;
+    --bkg-color: #535353;
+  }
+  .H2Title.light-theme {
+    --text-color: #222222;
+    --bkg-color: lavender;
+  }
+}
+
+.H2Title{
+  border-radius: 0.5rem;
+  background-color: var(--bkg-color);
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.25rem 0 0.25rem 0.25rem;
+  margin: 0.75rem 0 0.5rem 0;
+  cursor: pointer;
+}

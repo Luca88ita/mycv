@@ -1,0 +1,42 @@
+[
+  {
+    "DOMElement": "h1",
+    "className": "H1Title "
+  },
+  {
+    "DOMElement": "h2",
+    "className": "H2Title "
+  },
+  {
+    "DOMElement": "h5",
+    "className": "H5Title "
+  },
+  {
+    "DOMElement": "h6",
+    "className": "H6Title "
+  },
+  {
+    "DOMElement": "p",
+    "className": "Paragraph "
+  },
+  {
+    "DOMElement": "div",
+    "className": "fullBar "
+  },
+  {
+    "DOMElement": "div",
+    "className": "emptyBar "
+  },
+  {
+    "DOMElement": "a",
+    "className": "ALink "
+  },
+  {
+    "DOMElement": "ul",
+    "className": "ULList "
+  },
+  {
+    "DOMElement": "span",
+    "className": "commas "
+  }
+]

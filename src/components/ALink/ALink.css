@@ -1,0 +1,22 @@
+.ALink {
+  --text-color: #0000ff;
+}
+.ALink.dark-theme {
+  --text-color: #00ac00;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  .ALink {
+    --text-color: #00ac00;
+  }
+  .ALink.light-theme {
+    --text-color: #0000ff;
+  }
+}
+
+.ALink{
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: normal;
+}

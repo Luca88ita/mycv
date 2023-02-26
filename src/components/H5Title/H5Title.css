@@ -1,0 +1,24 @@
+.H5Title {
+  --text-color: #222222;
+}
+.H5Title.dark-theme {
+  --text-color: #aaaaaa;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  .H5Title {
+    --text-color: #aaaaaa;
+  }
+  .H5Title.light-theme {
+    --text-color: #222222;
+  }
+}
+
+.H5Title{
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0 0 0 0.25rem;
+  margin: 0.125rem 0 0.25rem 0;
+}

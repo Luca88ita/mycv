@@ -1,0 +1,8 @@
+#hobbies {
+  display: flex;
+}
+
+#hobbies>div {
+  display: flex;
+  flex-direction: row;
+}

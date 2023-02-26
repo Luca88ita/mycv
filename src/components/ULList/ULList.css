@@ -1,0 +1,31 @@
+.ULList {
+  --text-color: #222222;
+}
+.ULList.dark-theme {
+  --text-color: #eeeeee;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  .ULList {
+    --text-color: #eeeeee;
+  }
+  .ULList.light-theme {
+    --text-color: #222222;
+  }
+}
+
+.ULList{
+  color: var(--text-color);
+  list-style-type:square;
+  list-style-position: outside;
+  padding: 0;
+  margin: 0 0 0 1.5rem;
+}
+
+.ULListLI{
+  font-size: 1rem;
+  padding: 0 0.25rem 0 0.25rem;
+  margin: 0;
+  text-align: justify;
+}

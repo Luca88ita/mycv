@@ -1,0 +1,24 @@
+.Paragraph {
+  --text-color: #222222;
+}
+.Paragraph.dark-theme {
+  --text-color: #eeeeee;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  .Paragraph {
+    --text-color: #eeeeee;
+  }
+  .Paragraph.light-theme {
+    --text-color: #222222;
+  }
+}
+
+.Paragraph{
+  color: var(--text-color);
+  font-size: 1rem;
+  padding: 0 0.25rem 0 0.25rem;
+  margin: 0;
+  text-align: justify;
+}

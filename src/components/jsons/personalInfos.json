@@ -1,0 +1,44 @@
+[
+  {
+    "key":4,
+    "h5Title": "LinkedIn",
+    "paragraph": ["https://www.google.com"],
+    "type": "link"
+  },
+  {
+    "key":5,
+    "h5Title": "GitHub",
+    "paragraph": ["https://www.google.com"],
+    "type": "link"
+  },
+  {
+    "key":6,
+    "h5Title": "Sito web",
+    "paragraph": null,
+    "type": "link"
+  },
+  {
+    "key":0,
+    "h5Title": "Data di nascita",
+    "paragraph": "26 Febbraio 2019",
+    "type": "text"
+  },
+  {
+    "key":1,
+    "h5Title": "Indirizzo",
+    "paragraph": "Via ******** - ****** - ********** (**)",
+    "type": "text"
+  },
+  {
+    "key":2,
+    "h5Title": "Telefono / Whatsapp",
+    "paragraph": ["+39 123 456 7890"],
+    "type": "tel"
+  },
+  {
+    "key":3,
+    "h5Title": "Indirizzo e-mail",
+    "paragraph": ["email@fasulla.com", "email2@fasulla.com"],
+    "type": "mailto"
+  }
+]

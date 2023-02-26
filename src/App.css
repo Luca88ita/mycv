@@ -1,0 +1,94 @@
+:root{
+  font-size: 18px;
+}
+body {
+  --bg-color: #ffffff;
+  --text-color: #222222
+}
+body img {
+  filter: brightness(1) contrast(1);
+}
+
+body.dark-theme {
+  --bg-color: #121212;
+  --text-color: #eeeeee;
+}
+
+body.dark-theme img {
+  filter: brightness(.8) contrast(1.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    --bg-color: #121212;
+    --text-color: #eeeeee;
+  }
+  body img {
+    filter: brightness(.8) contrast(1.2);
+  }
+  body.light-theme {
+    --bg-color: #ffffff;
+    --text-color: #222222
+  }
+  body.light-theme img {
+    filter: brightness(1) contrast(1);
+  }
+}
+
+body{
+  margin: 4rem 2rem;
+  padding: 0;
+  background-color: var(--bg-color);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+}
+main>div{
+  width: 45vw;
+  min-width: 20rem;
+  max-width: 45vw;
+}
+
+@media screen and (max-width: 950px) {
+  :root{
+    font-size: 20px;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+  body{
+  margin: 2rem 0.5rem;
+  padding: 0;
+  }
+  main>div{
+    width: 90vw;
+    min-width: 20rem;
+    max-width: 90vw;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  :root{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  :root{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 360px) {
+  :root{
+    font-size: 10px;
+  }
+  .Collapsible,
+  footer{
+    min-width: 220px;
+  }
+}

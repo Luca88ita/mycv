@@ -1,0 +1,40 @@
+.H6Title {
+  --text-color: #222222;
+}
+.H6Title.dark-theme {
+  --text-color: #eeeeee;
+}
+.commas {
+  --text-color: #222222;
+}
+.commas.dark-theme {
+  --text-color: #eeeeee;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  .H6Title {
+    --text-color: #eeeeee;
+  }
+  .H6Title.light-theme {
+    --text-color: #222222;
+  }
+  .commas {
+    --text-color: #eeeeee;
+  }
+  .commas.light-theme {
+    --text-color: #222222;
+  }
+}
+
+.H6Title{
+  color: var(--text-color);
+  font-weight: normal;
+  font-size: 1rem;
+  padding: 0 0 0 0.25rem;
+  margin: 0.125rem;
+  text-align: justify;
+}
+.commas{
+  color: var(--text-color);
+}

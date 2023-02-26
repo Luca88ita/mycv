@@ -1,0 +1,7 @@
+#prog{
+  display: flex; 
+}
+#prog>div{
+  display: flex; 
+  flex-direction: row;
+}
